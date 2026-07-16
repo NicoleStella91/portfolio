@@ -1,0 +1,35 @@
+/* ============================================================
+   Homepage.css
+   ============================================================ */
+
+/* sezione principale: testo a sinistra, logo a destra */
+.homepage-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: var(--space-lg) var(--space-md);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.homepage-main img {
+  width: clamp(120px, 20vw, 200px);
+  flex-shrink: 0;
+}
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .homepage-main {
+    flex-direction: column-reverse; /* logo sopra, testo sotto */
+    padding: var(--space-md) var(--space-sm);
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .homepage-main img {
+    width: 140px;
+  }
+}

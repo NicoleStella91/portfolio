@@ -1,0 +1,88 @@
+/* ============================================================
+   index.css — stili globali
+   ============================================================ */
+
+:root {
+  --color-bg:        transparent;
+  --color-text:      #1a1a1a;
+  --color-muted:     #555;
+  --color-border:    rgba(0, 0, 0, 0.15);
+  --color-accent:    #BA7517;
+
+  --font-main: "Rubik", sans-serif;
+
+  --space-xs:  0.5rem;
+  --space-sm:  1rem;
+  --space-md:  2rem;
+  --space-lg:  4rem;
+
+  --max-width: 900px;
+}
+
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  font-optical-sizing: auto;
+  color: var(--color-text);
+  background-image: url("/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); }
+h2 { font-size: clamp(1rem, 2.5vw, 1.4rem); font-weight: 400; }
+h3 { font-size: clamp(0.95rem, 2vw, 1.15rem); }
+
+p  { line-height: 1.7; margin: 0; }
+
+a {
+  font-weight: 500;
+  color: var(--color-text);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  padding: 0.4em 1em;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  transition: box-shadow 0.2s;
+}
+button:hover { box-shadow: inset 0 0 0 2px var(--color-accent); }
+button:focus-visible { outline: 3px auto -webkit-focus-ring-color; }
+
+/* ── Layout wrapper ── */
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}

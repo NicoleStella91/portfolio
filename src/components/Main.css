@@ -1,0 +1,34 @@
+/* ============================================================
+   Main.css
+   ============================================================ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    flex: 1; 
+    margin: 50px;
+}
+
+main h2 {
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+}
+
+main h3 {
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+    font-weight: 600;
+    margin-bottom: 0.4em;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 90%;
+}
+

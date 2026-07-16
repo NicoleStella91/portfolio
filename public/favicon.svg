@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 112" width="100" height="112" role="img">
+  <title>Logo N – tessera</title>
+  <desc>Tessera stile Scrabble con lettera N e punteggio 1</desc>
+
+  <!-- ombra -->
+  <rect x="4" y="4" width="96" height="108" rx="10" fill="#8B7355" opacity="0.25"/>
+
+  <!-- corpo tessera -->
+  <rect x="0" y="0" width="96" height="108" rx="10" fill="#FAC775"/>
+
+  <!-- sfumatura sottile per dare volume -->
+  <rect x="0" y="0" width="96" height="54" rx="10" fill="white" opacity="0.15"/>
+
+  <!-- bordo esterno -->
+  <rect x="0" y="0" width="96" height="108" rx="10" fill="none" stroke="#BA7517" stroke-width="1.2"/>
+
+  <!-- bordo interno inciso -->
+  <rect x="5.5" y="5.5" width="85" height="97" rx="7" fill="none" stroke="#EF9F27" stroke-width="0.9"/>
+
+  <!-- lettera N -->
+  <text
+    x="48"
+    y="84"
+    font-size="72"
+    font-weight="700"
+    font-family="Georgia, 'Times New Roman', serif"
+    text-anchor="middle"
+    fill="#412402"
+    letter-spacing="-1"
+  >N</text>
+
+  <!-- punteggio 1 in basso a destra -->
+  <text
+    x="83"
+    y="102"
+    font-size="15"
+    font-weight="700"
+    font-family="Georgia, 'Times New Roman', serif"
+    text-anchor="middle"
+    fill="#633806"
+  >1</text>
+</svg>
