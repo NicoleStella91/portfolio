@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Main from "../components/Main";
 import Footer from "../components/Footer";
 import nicole from "../../public/nicole.jpg";
-import SkillTiles from "../components/Skilltiles";
+import SkillTiles from "../components/SkillTiles";
 import Timeline from "../components/Timeline";
 
 export default function About() {
