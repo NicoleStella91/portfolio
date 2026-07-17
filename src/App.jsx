@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Policy from './pages/Policy';
 import CaseStudy from './pages/CaseStudy';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <>
       <LanguageProvider>
         <BrowserRouter>
+        <ScrollToTop />
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<About />} />

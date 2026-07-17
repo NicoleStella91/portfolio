@@ -29,7 +29,9 @@ body {
   font-family: var(--font-main);
   font-optical-sizing: auto;
   color: var(--color-text);
-  background-image: url("/background.png");
+  /* translucent white overlay above the image; adjust alpha to taste */
+  --bg-overlay: rgba(255,255,255,0.6);
+  background-image: linear-gradient(var(--bg-overlay), var(--bg-overlay)), url("/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
