@@ -13,9 +13,22 @@ export const portfolio  = [
             "language learning",
             "digital learning"
         ],
+        roles: [
+            "Learning Experience Design",
+            "UX Design",
+            "Front-End Development (React)",
+            "Gamification"
+        ],
+        tools: [
+            "React",
+            "Canva",
+            "ElevenLabs",
+            "ChatGPT"
+        ],
         paragraphs: [
             {
                 id: 1,
+                anchor: "challenge",
                 paragraphTitle: {
                     ITA: "La sfida",
                     ENG: "The challenge"
@@ -27,6 +40,7 @@ export const portfolio  = [
             },
             {
                 id: 2,
+                anchor: "process",
                 paragraphTitle: {
                     ITA: "Il processo di progettazione",
                     ENG: "The design process"
@@ -38,6 +52,7 @@ export const portfolio  = [
             },
             {
                 id: 3,
+                anchor: "gamification",
                 paragraphTitle: {
                     ITA: "L'uso della gamification",
                     ENG: "The use of gamification"
@@ -49,6 +64,7 @@ export const portfolio  = [
             },
             {
                 id: 4,
+                anchor: "outcome",
                 paragraphTitle: {
                     ITA: "Il risultato",
                     ENG: "The outcome"
@@ -60,6 +76,7 @@ export const portfolio  = [
             },
             {
                 id: 5,
+                anchor: "testing",
                 paragraphTitle: {
                     ITA: "Il test con gli utenti",
                     ENG: "The user testing"
@@ -141,15 +158,25 @@ export const portfolio  = [
         ENG: "Learning board game for adult Italian L2 learners."
     },
     link: "", // aggiungere link quando disponibile
-    image: "/ciak2.png", 
+    image: "/ciakLogo.png", 
     tags: [
         "game-based learning",
         "language learning",
         "instructional design"
     ],
+    roles: [
+            "Learning Experience Design",
+            "UX Design",
+            "Game Design"
+    ],
+    tools: [
+            "Canva",
+            "ChatGPT"
+    ],
     paragraphs: [
         {
             id: 1,
+            anchor: "challenge",
             paragraphTitle: {
                 ITA: "La sfida",
                 ENG: "The challenge"
@@ -161,6 +188,7 @@ export const portfolio  = [
         },
         {
             id: 2,
+            anchor: "concept",
             paragraphTitle: {
                 ITA: "Il concept",
                 ENG: "The concept"
@@ -172,6 +200,7 @@ export const portfolio  = [
         },
         {
             id: 3,
+            anchor: "design",
             paragraphTitle: {
                 ITA: "Le principali decisioni di design",
                 ENG: "The main design decisions",
@@ -180,6 +209,7 @@ export const portfolio  = [
         },
         {
             id: 4,
+            anchor: "narrative",
             paragraphTitle: {
                 ITA: "Una narrazione che dia senso alle attività",
                 ENG: "A narrative that gives meaning to the activities"
@@ -191,6 +221,7 @@ export const portfolio  = [
         },
         {
             id: 5,
+            anchor: "cooperation",
             paragraphTitle: {
                 ITA: "Cooperazione invece di competizione",
                 ENG: "Cooperation instead of competition"
@@ -202,6 +233,7 @@ export const portfolio  = [
         },
         {
             id: 6,
+            anchor: "communication",
             paragraphTitle: {
                 ITA: "Valutare la comunicazione, non la perfezione",
                 ENG: "Evaluate communication, not perfection"
@@ -213,6 +245,7 @@ export const portfolio  = [
         },
         {
             id: 7,
+            anchor: "playtest",
             paragraphTitle: {
                 ITA: "Il primo playtest",
                 ENG: "The first playtest"
@@ -224,6 +257,7 @@ export const portfolio  = [
         },
         {
             id: 8,
+            anchor: "iteration",
             paragraphTitle: {
                 ITA: "Iterazione dopo il playtest",
                 ENG: "Iteration after the playtest"
@@ -235,6 +269,7 @@ export const portfolio  = [
         },
         {
             id: 9,
+            anchor: "structure",
             paragraphTitle: {
                 ITA: "Una struttura più semplice",
                 ENG: "A simpler structure"
@@ -246,6 +281,7 @@ export const portfolio  = [
         },
         {
             id: 10,
+            anchor: "board",
             paragraphTitle: {
                 ITA: "Un tabellone più dinamico",
                 ENG: "A more dynamic game board"
@@ -258,6 +294,7 @@ export const portfolio  = [
         },
         {
             id: 11, 
+            anchor: "oldboard",
             paragraphTitle: {
                 ITA: "Il vecchio tabellone:",
                 ENG: "The old game board:"
@@ -267,6 +304,7 @@ export const portfolio  = [
         },
         {
             id: 12,
+            anchor: "grammar",
             paragraphTitle: {
                 ITA: "Più attenzione alla grammatica",
                 ENG: "More attention to grammar"
@@ -278,6 +316,7 @@ export const portfolio  = [
         },
         {
             id: 13,
+            anchor: "gestures",
             paragraphTitle: {
                 ITA: "Più spazio alla comunicazione non verbale",
                 ENG: "More space for non-verbal communication"
@@ -289,6 +328,7 @@ export const portfolio  = [
         },
         {
             id: 14,
+            anchor: "scoring",
             paragraphTitle: {
                 ITA: "Un sistema di punteggio più intuitivo",
                 ENG: "A more intuitive scoring system"
@@ -300,6 +340,7 @@ export const portfolio  = [
         },
         {
             id: 15,
+            anchor: "learned",
             paragraphTitle: {
                 ITA: "Cosa ho imparato",
                 ENG: "What I learned"
@@ -311,6 +352,7 @@ export const portfolio  = [
         },
         {
             id: 16,
+            anchor: "current",
             paragraphTitle: {
                 ITA: "Stato attuale",
                 ENG: "Current state"

@@ -6,6 +6,7 @@
     gap: 1.2rem;
     flex: 1; 
     margin: 50px;
+    behavior: smooth;
 }
 
 .case-study h2 {
@@ -13,6 +14,37 @@
     font-weight: bold;
     line-height: 1.4;
     text-align: center;
+}
+
+.roles_tools {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: #FAC775;
+    border: 1.2px solid #BA7517;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.roles_tools::after {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    border-radius: 6px;
+    border: 0.8px solid #EF9F27;
+    pointer-events: none;
+}
+
+.roles_tools_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .case-study section {
@@ -23,21 +55,23 @@
     gap: 0.5rem;
     width: 90%;
     max-width: var(--max-width);
+    margin: 20px auto;
 }
 
 .case-study section > div {
     width: 100%;
 }
 
-.case-study h3,
 .case-study p {
     text-align: left;
 }
 
-h3 {
-    font-size: clamp(0.95rem, 2vw, 1.1rem);
-    font-weight: 600;
-    margin-bottom: 0.4em;
+.paragraph_title {
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    margin: 30px 0 10px 0;
 }
 
 .project-image {
@@ -46,6 +80,8 @@ h3 {
 
 .paragraph-image {
     width: 200px;
+    display: block;
+    margin: 10px auto;
 }
 
 .paragraph-image:hover {
