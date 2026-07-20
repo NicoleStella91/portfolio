@@ -4,6 +4,7 @@ import Homepage from './pages/Homepage';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Terms from './pages/Terms';
 import Policy from './pages/Policy';
 import CaseStudy from './pages/CaseStudy';
 import ScrollToTop from './components/ScrollToTop';
@@ -23,6 +24,7 @@ function App() {
             <Route path="/portfolio/" element={<Portfolio />} />
             <Route path="/portfolio/:id" element={<CaseStudy />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/terms" element={<Terms />} />
             <Route path="/privacy-policy" element={<Policy />} />
           </Routes>
         </BrowserRouter>

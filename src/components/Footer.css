@@ -17,3 +17,10 @@ footer {
 }
 
 footer p { margin: 0; }
+
+.footer_nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

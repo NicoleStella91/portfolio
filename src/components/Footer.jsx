@@ -11,8 +11,9 @@ export default function Footer() {
             <div>
                 <p>Copyright © {new Date().getFullYear()} Nicole Stella. All rights reserved.</p>
             </div>
-            <div>
-                <NavLink to="/privacy-policy">{language === 'ITA' ? 'Termini e condizioni' : 'Terms and conditions'}</NavLink>
+            <div className="footer_nav">
+                <NavLink to="/terms">{language === 'ITA' ? 'Termini e condizioni' : 'Terms and conditions'}</NavLink>
+                <NavLink to="/privacy-policy">Privacy Policy</NavLink>
             </div>
         </footer>
     )
