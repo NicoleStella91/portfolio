@@ -365,6 +365,78 @@ export const portfolio  = [
 
     ]
     },
+    {
+        id: 5,
+        name: "Kaboom!",
+        description: {
+            ITA: "Gioco di carte per la pratica della coniugazione verbale in italiano L2.",
+            ENG: "Card game for practising Italian L2 verb conjugation."
+        },
+        link: "", // aggiungere link quando disponibile
+        image: "/kaboom.png",
+        tags: [
+            "game-based learning",
+            "language learning",
+            "instructional design"
+        ],
+        paragraphs: [
+            {
+                id: 1,
+                paragraphTitle: {
+                    ITA: "La sfida",
+                    ENG: "The challenge"
+                },
+                paragraphText: {
+                    ITA: "La coniugazione verbale è uno degli aspetti più tecnici dell'italiano L2: richiede memorizzazione, riconoscimento di pattern e, soprattutto, automatizzazione. Gli esercizi tradizionali sono efficaci nelle prime fasi dell'apprendimento, ma diventano rapidamente ripetitivi. Mi sono quindi posta una domanda: come trasformare un esercizio di coniugazione in un'attività che gli studenti abbiano voglia di ripetere? Da questa domanda nasce Kaboom!, un gioco di carte che utilizza una meccanica familiare per creare un contesto di pratica linguistica rapida, ripetuta e coinvolgente.",
+                    ENG: "Verb conjugation is one of the most technical aspects of Italian L2: it requires memorisation, pattern recognition, and, above all, automatisation. Traditional exercises are effective during the initial stages of learning, but they quickly become repetitive. I therefore asked myself a question: how can a conjugation exercise become an activity that learners actually want to repeat? This question led to Kaboom!, a card game that uses a familiar game mechanic to create a fast-paced, repetitive and engaging language practice experience."
+                }
+            },
+            {
+                id: 2,
+                paragraphTitle: {
+                    ITA: "Il concept",
+                    ENG: "The concept"
+                },
+                paragraphText: {
+                    ITA: "Il punto di partenza è stato un esercizio di design, più che un'idea narrativa. Mi sono chiesta se fosse possibile prendere una meccanica conosciuta da quasi tutti (quella di Uno) e adattarla a un obiettivo didattico preciso. In Kaboom!, ogni carta riporta un soggetto e un verbo all'infinito. Per giocare è necessario trovare un criterio di corrispondenza con la carta sul tavolo (stesso soggetto, stesso ausiliare oppure stessa classe verbale). Ogni volta che un giocatore posa una carta, deve anche coniugare correttamente il verbo nel tempo verbale stabilito all'inizio della partita. La cornice narrativa è volutamente semplice: i giocatori devono liberarsi di tutte le carte prima che la bomba esploda.",
+                    ENG: "The starting point was a design exercise rather than a narrative idea. I wondered whether it would be possible to take a game mechanic familiar to almost everyone (the one used in Uno) and adapt it to a specific learning objective. In Kaboom!, each card displays a subject and a verb in the infinitive. To play, learners must find a matching criterion with the card on the table (same subject, same auxiliary verb or same verb class). Every time a player places a card, they must also conjugate the verb in the tense agreed upon at the beginning of the game. The narrative frame is intentionally simple: players must get rid of all their cards before the bomb explodes."
+                }
+            },
+            {
+                id: 3,
+                paragraphTitle: {
+                    ITA: "Le principali decisioni di design",
+                    ENG: "Key design decisions"
+                },
+                paragraphText: {
+                    ITA: "Il gioco è nato per affrontare una difficoltà molto specifica che incontro spesso nelle classi di italiano L2: la scelta dell'ausiliare (essere o avere) e la 'meccanica' della coniugazione nei tempi composti. Ogni turno richiede non solo di individuare una corrispondenza tra le carte, ma anche di recuperare rapidamente la forma verbale corretta, diventando, così, un micro-task linguistico inserito naturalmente nel flusso del gioco.",
+                    ENG: "The game was designed to address a very specific challenge that I frequently observe in Italian L2 classrooms: choosing the correct auxiliary verb (essere or avere) and mastering the mechanics of conjugation in compound tenses. Every turn requires players not only to find a matching criterion between cards, but also to retrieve the correct verb form quickly, turning each turn into a micro language production task naturally embedded in the flow of the game."
+                }
+            },
+            {
+                id: 4,
+                paragraphTitle: {
+                    ITA: "Il playtest",
+                    ENG: "Playtesting"
+                },
+                paragraphText: {
+                    ITA: "Il prototipo è stato testato con due studenti. Le meccaniche principali hanno funzionato senza particolari difficoltà e il ritmo della partita si è dimostrato fluido.",
+                    ENG: "The prototype was tested with two learners. The core mechanics worked smoothly and the pace of the game felt natural."
+                }
+            },
+            {
+                id: 5,
+                paragraphTitle: {
+                    ITA: "Prossimi sviluppi",
+                    ENG: "Next steps"
+                },
+                paragraphText: {
+                    ITA: "Il progetto è ancora in evoluzione. I prossimi passi prevedono la definizione dell'identità grafica definitiva, la stesura del regolamento finale, l'adattamento del sistema ai tempi verbali semplici e nuovi playtest con gruppi più numerosi.",
+                    ENG: "The project is still evolving. The next steps include developing the final visual identity, writing the definitive rulebook, adapting the system for simple tenses, and carrying out further playtests with larger groups."
+                }
+            }
+    ]
+}
     /*
 {
     id: 4,
