@@ -56,9 +56,11 @@ export default function CaseStudy() {
                         </div>
                     ))}
                 </section>
-                <button onClick={() => window.open(project.link, "_blank")}>
-                    {language === "ITA" ? "Vai al progetto" : "Go to project"}
-                </button>
+                {project.link != "" && 
+                    <button className="case-study-link" onClick={() => window.open(project.link, "_blank")}>
+                        {language === "ITA" ? "Vai al progetto" : "Go to project"}
+                    </button>
+                }
             </section>
             <Footer />
         </div>

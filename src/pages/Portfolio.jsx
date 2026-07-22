@@ -27,9 +27,11 @@ export default function Portfolio() {
                         <NavLink to={`/portfolio/${project.id}`} className="case-study-link">
                             {language === "ITA" ? "Vai al case study" : "Go to case study"}
                         </NavLink>
-                        <button onClick={() => window.open(project.link, "_blank")}>
-                            {language === "ITA" ? "Vai al progetto" : "Go to project"}
-                        </button>
+                        {project.link != "" && 
+                            <button onClick={() => window.open(project.link, "_blank")}>
+                                {language === "ITA" ? "Vai al progetto" : "Go to project"}
+                            </button>
+                        }
                     </div>
                 ))}
             </section>
